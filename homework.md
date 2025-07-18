@@ -129,7 +129,5 @@ NOTES:
 
 /feed?page=3&limit=10 => 21-30 => .skip(21) & .limit(30)
 
-/feed?page=4&limit=10 => 31-40 => .skip(31) & .limit(40)
-
 formula for skip function
 skip = (page-1)\*limit;
