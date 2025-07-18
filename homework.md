@@ -133,7 +133,5 @@ NOTES:
 
 /feed?page=5&limit=10 => 41-50 => .skip(41) & .limit(50)
 
-/feed?page=6&limit=10 => 51-60 => .skip(51) & .limit(60)
-
 formula for skip function
 skip = (page-1)\*limit;
